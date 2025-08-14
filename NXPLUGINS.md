@@ -16,7 +16,7 @@ nx g @nx/storybook
 nx g @nx/react:storybook-configuration packages/axolotl
 nx g @nx/react:storybook-configuration apps/blocks
 
-nx g @nx/react:library apps/blocks
+nx g @nx/react:library --bundler rollup --linter eslint --name concurui --importPath @concur/ui --unitTestRunner vitest --publishable
 
 nx storybook project-name
 nx build-storybook project-name

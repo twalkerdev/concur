@@ -32,6 +32,7 @@ node_modules
 npm-debug.log
 yarn-error.log
 testem.log
+TODOS.md
 /typings
 
 # System Files
@@ -42,3 +43,8 @@ Thumbs.db
 .nx/workspace-data
 .cursor/rules/nx-rules.mdc
 .github/instructions/nx.instructions.md
+
+vite.config.*.timestamp*
+vitest.config.*.timestamp*
+
+storybook-static
