@@ -1,5 +1,14 @@
 # Add files here to ignore them from prettier formatting
 /dist
+node_modules
+.next
 /coverage
 /.nx/cache
 /.nx/workspace-data
+/.vscode
+pnpm-lock.yaml
+
+# Concur UI specific ignores
+/packages/concurui/node_modules
+/packages/concurui/dist
+/packages/concurui/storybook-static

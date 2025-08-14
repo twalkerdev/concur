@@ -1,7 +1,12 @@
 import type { StorybookConfig } from '@storybook/react-vite'
+
 const config: StorybookConfig = {
-  stories: ['../src/lib/**/*.@(mdx|stories.@(js|jsx|ts|tsx))'],
-  addons: [],
+  stories: ['../src/ui/**/*.@(mdx|stories.@(js|jsx|ts|tsx))'],
+  addons: [
+    '@storybook/addon-a11y',
+    '@storybook/addon-docs',
+    '@chromatic-con/storybook',
+  ],
   framework: {
     name: '@storybook/react-vite',
     options: {
@@ -13,7 +18,3 @@ const config: StorybookConfig = {
 }
 
 export default config
-
-// To customize your Vite configuration you can use the viteFinal field.
-// Check https://storybook.js.org/docs/react/builders/vite#configuration
-// and https://nx.dev/recipes/storybook/custom-builder-configs
