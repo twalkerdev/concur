@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react'
 
-import { Card } from './card'
+import { Input } from './input'
 
-describe('Card', () => {
+describe('Input', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Card />)
+    const { baseElement } = render(<Input />)
     expect(baseElement).toBeTruthy()
   })
 })

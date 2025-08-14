@@ -9,12 +9,14 @@
     "format": "nx format:write",
     "format:check": "nx format:check",
     "storybook": "nx run concurui:storybook",
-    "storybook:build": "nx build-storybook concurui"
+    "storybook:build": "nx run concurui:build-storybook",
+    "storybook:test": "nx run concurui:test-storybook"
   },
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
+    "@chromatic-com/storybook": "^4.1.0",
     "@eslint/js": "^9.8.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.6.2",
     "@nx/eslint": "21.3.11",
@@ -26,6 +28,8 @@
     "@nx/vite": "21.3.11",
     "@nx/web": "21.3.11",
     "@rollup/plugin-url": "^8.0.2",
+    "@storybook/addon-a11y": "^9.1.2",
+    "@storybook/addon-docs": "9.1.0",
     "@storybook/react": "9.1.0",
     "@storybook/react-vite": "9.1.0",
     "@svgr/rollup": "^8.1.0",
