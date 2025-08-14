@@ -8,17 +8,15 @@
   "bracketSpacing": true,
   "arrowParens": "always",
   "importOrder": [
-    "^storybook/(.*)$",
     "^(react/(.*)$)|^(react$)",
     "^(next/(.*)$)|^(next$)",
+    "^@storybook/(.*)$",
     "<THIRD_PARTY_MODULES>",
     "",
-    "^@workspace/(.*)$",
+    "^@concur/ui/(.*)$",
+    "^[./]",
     "",
-    "^types$",
-    "^packages/concurui/src/lib(.*)$",
-    "^packages/concurui/src/ui(.*)$",
-    "^packages/concurui/src/styles(.*)$"
+    "^types$"
   ],
   "importOrderSeparation": false,
   "importOrderSortSpecifiers": true,

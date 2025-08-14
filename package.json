@@ -2,7 +2,15 @@
   "name": "@concur/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx run concurui:build",
+    "test": "nx run concurui:test",
+    "lint": "nx run concurui:lint",
+    "format": "nx format:write",
+    "format:check": "nx format:check",
+    "storybook": "nx run concurui:storybook",
+    "storybook:build": "nx build-storybook concurui"
+  },
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.14.5",

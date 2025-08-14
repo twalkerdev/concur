@@ -1,3 +1,5 @@
+import type { Meta, StoryObj } from '@storybook/react-vite'
+
 import {
   Card,
   CardContent,
@@ -6,9 +8,6 @@ import {
   CardHeader,
   CardTitle,
 } from './Card'
-import type { Meta, StoryObj } from '@storybook/react-vite'
-
-// type PagePropsAndCustomArgs = React.ComponentProps<typeof Card> & { footer?: string };
 
 const meta = {
   component: Card,
